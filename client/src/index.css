@@ -1,0 +1,15 @@
+@import "tailwindcss";
+
+@layer base {
+  html {
+    -webkit-font-smoothing: antialiased;
+  }
+
+  body {
+    @apply min-h-dvh bg-white text-neutral-900;
+  }
+
+  button {
+    @apply cursor-pointer;
+  }
+}
